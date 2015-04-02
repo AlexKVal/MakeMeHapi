@@ -28,7 +28,8 @@ var uploadConfig = {
   handler: uploadHandler,
   payload: {
     output: 'stream',
-    parse: true
+    parse: true,
+    allow: 'multipart/form-data'
   },
   validate: {
     payload: {
